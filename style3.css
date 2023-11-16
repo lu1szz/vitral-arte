@@ -1,0 +1,350 @@
+/* RESET CSS */
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+/* FIM RESET CSS */
+/* IMPORTAR FONTES */
+@font-face {
+    font-family: 'Open-Sans Regular';
+    src: url(Font/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Open-Sans Bold';
+    src: url(Font/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins Regular';
+    src: url(Font/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins Bold';
+    src: url(Font/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto Regular';
+    src: url(Font/Roboto-Regular.ttf);
+}
+
+
+@font-face {
+    font-family: 'Roboto Bold';
+    src: url(Font/Roboto-Bold.ttf);
+}
+
+/* ********** */
+
+.container {
+    margin: 0 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ********* */
+
+.barra {
+    background-color: #106EEA;
+}
+
+.barra .container {
+    height: 35px;
+}
+
+.contato {
+    color: white;
+    font: 500 20px 'Open-Sans Regular', sans-serif;
+    padding-right: 30px;
+}
+
+
+/* HEADER */
+.logo h1 {
+    font: 700 45px 'Poppins Bold', sans-serif;
+}
+
+.menu .item, 
+.texto {
+    font: 500 22px 'Open-Sans Regular', sans-serif;
+    color: black;
+    margin-left: 50px;
+}
+
+
+/* MAIN */
+span {
+    color: #106EEA;
+}
+
+
+.inicio {
+    background-image: url(Img/Vitral.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inicio .container {
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+    align-items: flex-end;
+}
+
+.titulo {
+    font: 700 60px 'Poppins Bold', sans-serif;
+    margin-bottom: 20px;
+}
+
+.subtitulo {
+    font: 500 31px 'Poppins Regular', sans-serif;
+}
+
+#sobreNos {
+    margin: 100px 0;
+}
+
+.sobreNos .imagem img {
+    width: 450px;
+}
+
+.titulo-site {
+    font: 700 35px 'Roboto Bold', sans-serif;
+    margin-bottom: 15px;
+}
+
+.sobreNos .conteudo .texto {
+    text-align: justify;
+}
+
+.conteudo {
+    text-align: center;
+    margin-right: 50px;
+}
+
+.caixas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.caixa {
+    background-color: #F1F6FE;
+    border: 1px solid #8CA9CE;
+    text-align: center;
+    height: 245px;
+    width: 250px;
+    border-radius: 10px;
+    margin: 0 10px;
+    padding: 30px 20px;
+}
+
+.caixa .imagem img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.numero {
+    font: 700 30px 'Open-Sans Bold', sans-serif;
+}
+
+.dados {
+    font: 500 20px 'Roboto Regular', sans-serif;
+}
+
+.servicos .container {
+    flex-direction: column;
+}
+
+.caixas-servicos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixas-servicos .caixa {
+    width: 275px;
+    height: 190px;
+    margin: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    border-radius: 7px;
+    background-color: white;
+    margin-top: 50px;
+}
+
+.caixa-texto {
+    font: 600 24px 'Roboto Bold', sans-serif;
+    width: 100%;
+
+}
+.servicos, .contato {
+    margin: 150px 0;
+}
+
+.equipe .container {
+    flex-direction: column;
+}
+
+.equipe .container .conteudo {
+    margin-top: 100px;
+}
+
+.pessoas {
+    display: flex;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.pessoa {
+    border: 1px solid black;
+    border-radius: 7px;
+    margin: 0 50px;
+}
+
+.texto-final {
+    text-align: justify;
+}
+
+.nome {
+    font: 700 24px 'Poppins Bold', sans-serif;
+}
+
+.cargo {
+    font: 500 20px 'Roboto Regular', sans-serif;
+}
+
+.descricao {
+    padding: 10px 15px;
+}
+
+.contato .container {
+    flex-direction: column;
+}
+
+.informacoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.formulario {
+    margin-left: 50px;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+}
+
+.endereco-nome, .endereco-local {
+    color: black;
+}
+
+.endereco-nome {
+    font: 700 30px 'Roboto Bold', sans-serif;
+    margin-bottom: 30px;
+}
+
+.endereco-local {
+    font:500 30px 'Roboto Regular', sans-serif;
+    text-align: center;
+}
+
+.endereco {
+    border: 1px solid #8CA9CE;
+    height: 430px;
+    width: 35%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 7px;
+}
+
+input, textarea {
+    background-color: #E5E5E5;
+    padding: 7px;
+    border-radius: 15px;
+    margin: 15px 0;
+}
+
+input {
+    height: 60px;
+}
+
+textarea {
+    height: 160px;
+}
+
+.botao {
+    text-align: center;
+}
+
+button {
+    background-color: #106EEA;
+    color: white;
+    font: 600 30px 'Roboto Bold', sans-serif;
+    border-radius: 15px;
+    width: 70%;
+    height: 60px;
+}
+
+
+/* DIVISÃO */
+.divisao {
+    height: 2px;
+    background-color: #1150A3;
+    margin: 40px 0;
+}
+
+
+/* FOOTER */
+#footer {
+    background-color: #1150A3;
+}
+
+.footer .container {
+    justify-content: space-around;
+} 
+.footer .container .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.footer .container .menu a {
+    color: white;
+}
+
+.redes .logos img {
+    width: 50px;
+    height: auto;
+}
+
+.redes .titulo {
+    font: 500 30px 'Open-Sans Regular', sans-serif ;
+    color: white;
+}
